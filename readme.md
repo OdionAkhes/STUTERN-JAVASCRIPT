@@ -38,6 +38,7 @@
     PHP
     Ruby,
 
+7A. Differentiate between the JavaScript data types ‘null’ and ‘undefined
 7Q. Null: It is the intentional absence of the value, which represents the null, empty, or non-existent reference. It is one of the primitive values of JavaScript.
  Undefined: It means the value does not exist in the compiler,In JavaScript, when a variable is declared but didn’t assign a value, then it is undefined.
 
