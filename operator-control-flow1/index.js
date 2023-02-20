@@ -11,7 +11,7 @@
  * @format
  */
 
-// Initializing and assigning each class group to their subjects.
+
 let scienceSubjects = "Physics, Chemistry, Biology, Technical Drawing";
 
 let socialScienceSubjects = "Accounting, Commerce, Marketing, Geography";
@@ -42,37 +42,11 @@ function Subjects() {
     console.log(generalSubjects);
   }
 
-  // Using the switch case statement instead
 
-  // switch (bolatito) {
-  //     case 'SCIENCE':
-  //         console.log(scienceSubjects)
-  //         break;
-  //     case 'ARTS':
-  //         console.log(artsSubjects)
-  //         break;
-  //     case 'SOCIALSCIENCE':
-  //         console.log(socialScienceSubjects)
-  //         break;
-  //     default:
-  //         console.log(generalSubjects)
-  // }
+
 }
 
-// Using the arrow function instead;
-// const Subjects = () => {
-//     if (bolatito == 'SCIENCE') {
-//         console.log(scienceSubjects);
-//     } else if (bolatito == 'ARTS') {
-//         console.log(artsSubjects);
-//     } else if (bolatito == 'SOCIAL-SCIENCE') {
-//         console.log(socialScienceSubjects);
-//     } else {
-//         console.log(generalSubjects);
-//     }
-// }
-
-Subjects(); // This returns 'English, Mathematics, Government, Economics, Literature, History' as the subjects Bolatito has to take in the Arts class.
+Subjects(); 
 
 /* Task 5:
 Write a program that takes a positive number (num) and finds the power of 2 nearest to that number. The program stores the resulting value to pwr. Then you log the answer in this format: 
@@ -85,32 +59,28 @@ If num = 50, pwr = 64.. Then you log to your console in this format:
 “The number 64 is the power of 2 nearest to 50.”
 */
 
-// This is a function that takes in a positive number(num)
 
-// initializing and assigning the variable pwr
+
 let pwr;
 let firstValue;
 function nearestPowerOf2(num) {
   for (let i = 0; i < num; i++) {
-    // finding the power of 2 raised to the a number close to the number given.
+    
     pwr = 2 ** i;
     if (pwr < num) {
-      // Getting the result of the smaller value and assigning it to the variable firstValue;
       firstValue = pwr;
     }
   }
-  // Using ternary operator to assign the smaller value to pwr;
+  
   pwr = num - firstValue > firstValue * 2 - num ? firstValue * 2 : firstValue;
-  // Log the result of pwr to the console to be sure;
-  console.log(pwr); // This logs 3 for the first test case, 32 for the second test case and 64 for the third test case.
-
-  // Then logging the final result in this format “The number (pwr) is the power of 2 nearest to (num).”
+ 
+  console.log(pwr); 
   console.log(`The number ${pwr} is the power of 2 nearest to ${num}`);
 }
 
-// Calling the function
-console.log(nearestPowerOf2(3)); // Using the first test case where num = 3, Result is 'The number 2 is the power of 2 nearest to 3'.
 
-console.log(nearestPowerOf2(40)); // Using the second test case where num = 40, Result is 'The number 32 is the power of 2 nearest to 40'.
+console.log(nearestPowerOf2(3)); 
 
-console.log(nearestPowerOf2(50)); // Using the second test case where num = 50, Result is 'The number 50 is the power of 2 nearest to 50'.
+console.log(nearestPowerOf2(40)); 
+
+console.log(nearestPowerOf2(50)); 
