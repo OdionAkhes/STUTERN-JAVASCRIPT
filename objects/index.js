@@ -1,7 +1,5 @@
 // Using the constructor method, create an InstagramPost() constructor function
 
-const { useAsyncValue } = require("react-router-dom");
-
 // 1.
 function InstagramPost(handle, content, imgLink, viewCount, likeCount) {
     this.handle = handle;
