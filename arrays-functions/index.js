@@ -10,7 +10,7 @@
 // -sort() - Sorts the elements of an array in place and returns the sorted array.
 // -reverse() - Reverses the order of the elements in an array in place and returns the reversed array.
 
-// - Non - Mutating Array Methods do not chnage the original array and instead return a new aray or a new useAsyncValue.
+// - Non - Mutating Array Methods do not change the original array and instead return a new aray or a new value.
 
 // Non-Mutating Array Methods:
 
